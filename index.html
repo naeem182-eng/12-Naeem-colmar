@@ -235,8 +235,10 @@
     	</div>
 <!-- Mobile -->
     	<div class="flex flex-col p-4 gap-2 md:hidden">
-      	  <div class="bg-gray-300 p-4 font-semibold">Software engineering</div>
-          <div class="bg-gray-300 p-4 font-semibold">Computer art</div>
+      	  <div class="bg-gray-300 p-4 font-semibold">Software engineering
+		  </div>
+          <div class="bg-gray-300 p-4 font-semibold">Computer art
+		  </div>
       	  <div class="bg-gray-300 p-4 font-semibold">Design
 	  	  </div>
        	  <div class="bg-gray-300 p-4 font-semibold">Data
@@ -248,16 +250,60 @@
     	</div>
   	   </div>
 	  </section>
-	  <section>
+	  <section class="bg-gray-200 py-8 md:pl-6">
+  		<div class="max-w-6xl mx-auto px-4 md:px-8">
+    	  <h2 class="text-2xl font-semibold text-center mt-0 mb-4 md:mb-8">Thesis exhibits
+    	  </h2>
+		</div>
+		<!-- Desktop layout -->
+    	<div class="hidden md:flex gap-6">
+	  	  <div class="w-3/5">
+            <video src='./videos/thesis.mp4' controls class=" bg-gray-300 aspect-video flex">▶
+        	</video>
+	    	<article>
+		  	  <h3 class="font-semibold mt-6 mb-2">Reimagine urban</h3>
+		  	  <p class="text-gray-600 text-sm mb-8">“Curabitur vitae libero in ipsum porttitor consequat. Aliquam et commodo lectus, nec consequat neque.Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat,tristique ligula.”
+          	  </p>
+	    	</article>
+	   	  </div>
+		  <!-- Right: articles -->
+          <div class="w-2/5 flex flex-col gap-4">
+        	<div class="flex gap-4">
+          	  <img src="./images/thesis-fisma.jpg" class="w-2/5 object-cover p-4" alt="thesis-fisma"
+			  />
+          	  <div class="m-8">
+            	<h2 class="font-semibold mb-1">Fisma: Design and <br>Prototype</h2>
+            	<p class="text-gray-500 text-sm">Designer showcase of new <br> prototype product
+				</p>
+          	  </div>
+        	</div>
+        	<div class="flex gap-4">
+          	  <img src="./images/thesis-now-and-then.jpg" class="w-2/5 object-cover p-4" alt="thesis-now-and-then">
+          	  <div class="m-8">
+            	<h2 class="font-semibold my-4">Now and then</h2>
+            	<p class="text-gray-500 text-sm">Research study about New York</p>
+          	  </div>
+        	</div>
+      	  </div>
+    	</div>
 
-	  </section>
-	  <section>
-		
-	  </section>
-	</main>
-	<footer>
-	  <div>
+    	<!-- Mobile layout -->
+    	<div class="md:hidden text-center">
+      	  <video class="bg-gray-300 aspect-video flex items-center justify-center text-5xl text-white mb-4" src='./videos/thesis.mp4'controls>  ▶
+      	  </video>
+    	</div>
 	  </div>
+	 </section>
+	</main>
+	<footer class="bg-gray-200 text-gray-500 text-center md:text-left p-4 md:px-8">
+  	  <div class="max-w-6xl mx-auto flex items-center justify-between">
+    	<p>© 2016 Colmar Academy. All rights reserved</p>
+		<!-- Terms & Privacy -->
+    	<div class="hidden md:flex gap-4 text-xl">
+      	  <a href="#" class="hover:text-black-200 transition-colors cursor-pointer">Terms</a>
+      	  <a href="#" class="hover:text-black-200 transition-colors cursor-pointer">Privacy</a>
+    	</div>
+  	  </div>
 	</footer>
   </body>
 </html>
